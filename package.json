@@ -1,0 +1,28 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "A command line utility to get your work done fast.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavyarishi19/CLI-for-Cryptocurrency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavyarishi19/CLI-for-Cryptocurrency/issues"
+  },
+  "homepage": "https://github.com/kavyarishi19/CLI-for-Cryptocurrency#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.1.4"
+  }
+}
